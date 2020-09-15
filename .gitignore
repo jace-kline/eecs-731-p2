@@ -1,0 +1,5 @@
+*.zip
+*.whl
+*.tar.gz
+*.tgz
+conda-env/
