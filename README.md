@@ -23,4 +23,4 @@ In this project, we carried out the following tasks:
     * Numerical approach using decision tree methods
 5. Results and conclusion
 
-We managed to achieve a 75% model success rate on our test data using the numercial features exclusively and deploying a decision tree model. These two decisions in conjunction allowed us to manage the large amount of data in the dataset to generate a reasonably accurate model given our computational and memory constraints. Future work shall include integration of textual analysis into the current model to produce a more accurate model. Please see the project report [here](asldfj).
+We managed to achieve a 75% model success rate on our test data using the numercial features exclusively and deploying a decision tree model. These two decisions in conjunction allowed us to manage the large amount of data in the dataset to generate a reasonably accurate model given our computational and memory constraints. Future work shall include integration of textual analysis into the current model to produce a more accurate model. Please see the project report [here](reports/shakespeare.md).
