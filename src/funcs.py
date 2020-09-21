@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import re
 
 # Takes a numpy array and folds it from left to right
 def foldl(arr, bin_op, initial):
@@ -16,6 +17,6 @@ def foldr(arr, bin_op, initial):
 def actSceneLineConvert(acl): # string -> 3-tuple of integers
     regex = '([1-9]{1,2})[.]([1-9]{1,2})[.]([1-9]{1,3})'
     if acl != acl:
-        return (0,0,0) # 
+        return (0,0,0)
     m = re.search(regex, acl)
     return (int(m.group(1)),int(m.group(2)),int(m.group(3)))
