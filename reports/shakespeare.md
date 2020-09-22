@@ -169,16 +169,6 @@ df.drop(columns=['index','Dataline'],axis='columns',inplace=True)
 df
 ```
 
-    /home/jacekline/dev/eecs-731/project2/conda-env/lib/python3.8/site-packages/pandas/core/frame.py:3990: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      return super().drop(
-
-
-
-
-
 <div>
 <table border="1" class="dataframe">
   <thead>
